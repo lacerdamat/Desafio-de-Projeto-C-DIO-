@@ -40,7 +40,7 @@ namespace Estacionamento
             carrosParados.Remove(Console.ReadLine());
             Console.WriteLine("Escreva a quantidade de horas que o carro ficou: ");
             decimal hrs = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine($"O carro ficou por {hrs} horas. \r\nO total foi {5*hrs} reais. \r\nCarro removido com sucesso!");
+            Console.WriteLine($"O carro ficou por {hrs} horas. \r\nO total foi {5*hrs + 20} reais. \r\nCarro removido com sucesso!");
             ReiniciarSistem();
         }
         public void ListarCarros(){
