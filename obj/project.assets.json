@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\CSharp.Projs.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\SistemaDeEstacionamento\\CSharp.Projs.csproj",
       "projectName": "CSharp.Projs",
-      "projectPath": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\CSharp.Projs.csproj",
+      "projectPath": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\SistemaDeEstacionamento\\CSharp.Projs.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\Programação\\CSharp.Projs\\SistemaDeEstacionamento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config"
