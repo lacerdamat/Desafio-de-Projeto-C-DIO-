@@ -1,6 +1,6 @@
 ﻿using Estacionamento;
 using Newtonsoft.Json;
 
-FuncoesdoEstacionamento Sistem = new FuncoesdoEstacionamento();
-Carros veiculos = new Carros();
-Sistem.IniciarSistem();
+Console.WriteLine("Bem vindo ao nosso sistema de estacionamento!");
+Funcoes n1 = new Funcoes();
+n1.ReiniciarSistem();
