@@ -9,7 +9,6 @@ namespace Estacionamento
             
         Dictionary<string, string> carrosParados = new Dictionary<string, string>();
         public void IniciarSistem(){
-            Console.Clear();
             Console.WriteLine("\r\nO que deseja fazer? \r\n1 - Adicionar um carro." +
             " \r\n2 - Remover um carro. \r\n3 - Listar todos os carros presentes. \r\n4 - Encerrar o sistema.");
             int esc = Convert.ToInt32(Console.ReadLine());
@@ -17,14 +16,15 @@ namespace Estacionamento
                 case 1: AdicionarCarro(); break;
                 case 2: RemoverrCarro(); break;
                 case 3: ListarCarro(); break;
-                // case 4: DesligarSistem(); break;
+                case 4: Console.WriteLine("Programa encerrado com sucesso!"); Environment.Exit(0); break;
                 default: Console.WriteLine("Escolha uma opção válida!"); break;
             }
         }
 
             public void ReiniciarSistem(){
             Console.WriteLine("Pressione uma tecla para continuar");
-            if (Console.ReadLine != null){
+            if (Console.ReadLine != null){    
+                Console.Clear();
                 IniciarSistem(); 
             }
 
